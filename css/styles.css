@@ -3,3 +3,304 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.hero{
+    background-image: url(https://i.ytimg.com/vi/sT7AAWXvpbY/maxresdefault.jpg);
+    height: 100vh;
+    background-color:black;
+    opacity: 1;
+}
+#navbar {
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    opacity: 0.6;
+    top: 0%;
+    align-items: center;
+}
+nav > ul {
+    display:flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline solid green;
+}
+
+nav {
+    margin-right: 3rem;
+}
+
+nav li a {
+    margin:0% 1rem; 
+    color: #ffffff;
+}
+
+div h1 {
+    color: white;
+    margin-left: 3rem;
+}
+
+div h1 span {
+    color:green;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content h2,p {
+color:#ffffff;
+}
+div .btn {
+    background-color: green;
+    padding: 1rem;
+    border-radius: .75rem;
+    color: #ffffff;
+
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem;
+
+}
+
+
+.column-1 img{
+    opacity: 1;
+    width: 180vh;
+    padding-top: 7rem;
+    
+}
+
+
+#about{
+    background-color: rgba(52, 104, 146, 0.719);
+    color: black;
+    display: flex;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h2{
+    font-size: 20px;
+    font-style: bold;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content h2{
+    font-size: 43;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:green;
+    text-align: center;
+    opacity: 1;
+}
+.content p{
+    font-size: 25px;
+    font-weight: bold;
+    color:green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.column-2 bg-primary{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 15em sans-serif;
+}
+
+.flex-items{
+    display:flex;
+    width: 426px;
+    Height: 640px;
+
+}
+
+.info-card1 img{
+    height:55vh;
+    width: 45vh;
+}
+
+.logo img{
+    height: 11vh;
+    width: 11vh;
+    background-color: green;
+    background: green;
+    color:green;
+}
+
+.info-card img{
+    height: 15vh;
+    width: 25vh;
+}
+
+.info-card01 img{
+    height: 15vh;
+    width: 25vh;
+}
+
+.info-card02 img{
+    height: 15vh;
+    width: 25vh;
+}
+
+.column-11 img{
+    height: auto;
+    width: 180vh;
+}
+h4{
+    font-weight: bold;
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.smartcity img{
+    width: 180vh;
+
+}
+
+.solutions img{
+    width: 180vh;
+}
+
+.wearables img{
+    width:180vh;
+}
+
+.mercedes img{
+    width: 180vh;
+}
+
+.cityhub img{
+width: 180vh;
+}
+
+.column-19 img{
+    width: 180vh;
+}
+
+.iot img{
+width: 180vh;
+}
+
+
+ .column-112 img{
+     width: 180vh;
+ }   
+
+.column-12{
+    height: auto;
+    width: auto;
+}
+
+.column-15 img{
+    height: 50vh;
+    width: 100vh;
+    background-color: rgb(8, 240, 182);
+}
+
+.ceo p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+ }
+
+.section-header00 p{
+color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+
+.uni h2{
+    font-size: 35;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    font-weight: bold;
+}
+
+.knowus img{
+    width: 175vh;
+    height: 50vh;
+    padding-top: 3rem;
+}
+
+.history img{
+    width:175vh;
+    height: 50vh;
+}
+
+.history p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    line-height: 5vh;
+    background-color: green;
+    padding: 3rem;
+}
+
+.footer p{
+    color: black;
+}
+
+.history{
+    /* background-image: url("https://blog.trakdesk.com/wp-content/uploads/2016/08/background-light-green-1-770x515.png"); */
+}
+
+.history h2{
+    text-align:center;
+    text-decoration: underline;
+}
+
+.bg-dark p{
+    color: black;
+}
+
+.knowus h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.crime h2{
+    color: black;
+    background-color: green;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold ;
+}
+
+.crime img{
+    width: 135vh;
+}
+
+.aspire p{
+    color:black;
+    font-size: 30;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.aspire img{
+    width: 135vh;
+}
+
+.bg-dark p{
+    color: green;
+}
